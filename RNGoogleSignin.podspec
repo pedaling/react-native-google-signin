@@ -23,5 +23,7 @@ Features
 
   s.source       = { :git => "https://github.com/devfd/react-native-google-signin.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/RNGoogleSignin/*.{h,m}"
+
+  s.dependency 'React'
   s.dependency 'GoogleSignIn'
 end
